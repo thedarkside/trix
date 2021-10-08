@@ -35,6 +35,18 @@ Trix.config.blockAttributes = attributes =
     nestable: true
     test: (element) ->
       Trix.tagName(element.parentNode) is attributes[@listAttribute].tagName
+  custom_center:
+    tagName: "div"
+    className: "text-center"
+    terminal: true
+    breakOnReturn: true
+    group: false
+  custom_right:
+    tagName: "div"
+    className: "text-right"
+    terminal: true
+    breakOnReturn: true
+    group: false
   attachmentGallery:
     tagName: "div"
     exclusive: true

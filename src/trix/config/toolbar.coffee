@@ -16,6 +16,8 @@ Trix.config.toolbar =
         <button type="button" class="trix-button trix-button--icon trix-button--icon-code" data-trix-attribute="code" title="#{lang.code}" tabindex="-1">#{lang.code}</button>
         <button type="button" class="trix-button trix-button--icon trix-button--icon-bullet-list" data-trix-attribute="bullet" title="#{lang.bullets}" tabindex="-1">#{lang.bullets}</button>
         <button type="button" class="trix-button trix-button--icon trix-button--icon-number-list" data-trix-attribute="number" title="#{lang.numbers}" tabindex="-1">#{lang.numbers}</button>
+        <button type="button" class="trix-button trix-button--icon trix-button--icon-custom-center" data-trix-attribute="custom_center" title="#{lang.custom_center}" tabindex="-1">#{lang.custom_center}</button>
+        <button type="button" class="trix-button trix-button--icon trix-button--icon-custom-right" data-trix-attribute="custom_right" title="#{lang.custom_right}" tabindex="-1">#{lang.custom_right}</button>
         <button type="button" class="trix-button trix-button--icon trix-button--icon-decrease-nesting-level" data-trix-action="decreaseNestingLevel" title="#{lang.outdent}" tabindex="-1">#{lang.outdent}</button>
         <button type="button" class="trix-button trix-button--icon trix-button--icon-increase-nesting-level" data-trix-action="increaseNestingLevel" title="#{lang.indent}" tabindex="-1">#{lang.indent}</button>
       </span>
