@@ -211,6 +211,10 @@ class Trix.HTMLParser extends Trix.BasicObject
         if value = element.style[config.styleProperty]
           attributes[attribute] = value
 
+      else if config.className
+        if element.classList.contains(config.className)
+          attributes[attribute] = true
+
     if nodeIsAttachmentElement(element)
       for key, value of parseTrixDataAttribute(element, "attributes")
         attributes[key] = value
