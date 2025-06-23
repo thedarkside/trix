@@ -1,4 +1,12 @@
 # Trix
+
+#### New Changes
+- h2, h3, h4, h5 and h6 headings were added to block_attributes config.
+- CTA was added to text_attributes config
+- font colors and background colors were added to text_atributes config: both now contain `rgb(31, 181, 143)`, `rgb(212, 67, 51)`, `rgb(255, 192, 67)`, `rgb(204, 204, 204)` and `rgb(39, 110, 241)`
+
+These changes were added because it was impossible to add these configs at the right time during the initialization using Vite.js.
+
 ### A Rich Text Editor for Everyday Writing
 
 **Compose beautifully formatted text in your web application.** Trix is a WYSIWYG editor for writing messages, comments, articles, and lists—the simple documents most web apps are made of. It features a sophisticated document model, support for embedded attachments, and outputs terse and consistent HTML.
